@@ -1,0 +1,121 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #e0e0e0;
+    background-color: #121212;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    padding: 4rem 1rem;
+    background-color: #4a4a4a;
+    color: #ff4081;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.3rem;
+    opacity: 0.8;
+}
+
+/* Section Styles */
+.section {
+    padding: 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Alternate Background Colors for Sections */
+.section-light {
+    background-color: #2e2e2e;
+    color: #ffffff;
+}
+
+.section-dark {
+    background-color: #1b1b1b;
+    color: #ff4081;
+}
+
+/* Section Titles */
+.section h2 {
+    font-size: 2.2rem;
+    border-bottom: 3px solid #ff4081;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Skills and Certifications */
+#skills ul, #certifications ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+    padding: 0;
+    justify-content: center;
+}
+
+#skills li, #certifications li {
+    background-color: #ff4081;
+    color: #1b1b1b;
+    padding: 0.6rem 1.4rem;
+    border-radius: 20px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+#skills li:hover, #certifications li:hover {
+    background-color: #e91e63;
+}
+
+/* Project Section */
+.project {
+    background-color: #333;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.project h3 {
+    color: #ff4081;
+    margin-bottom: 0.5rem;
+}
+
+.project p {
+    color: #c7c7c7;
+}
+
+/* Contact Section */
+#contact p {
+    font-size: 1.1rem;
+    color: #ff4081;
+    font-weight: 500;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #333;
+    color: #e0e0e0;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
